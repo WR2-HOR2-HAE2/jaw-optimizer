@@ -1,0 +1,12 @@
+[package]
+name = "image_optimizer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = { version = "0.25.6", features = ["avif-native"]}
+image-compare = "0.4.1"
+clap = { version = "4.5.38", features = ["derive"]}
+rayon = "1.10.0"
+tempfile = "3.20.0"
+webp = "0.3.0"
